@@ -1,0 +1,54 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif; /* Use Arial font globally */
+    background-color: #f4f4f4; /* Light grey background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+.header {
+    background-color: #4CAF50; /* Green background for header */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* Image section styling */
+.image-section {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.image {
+    width: 80%; /* Make image take up 80% of the container width */
+    border: 5px solid #ddd; /* Add a light gray border around the image */
+    padding: 10px;
+    border-radius: 8px; /* Rounded corners for the image */
+}
+
+/* Content section styling */
+.content {
+    text-align: center;
+    padding: 20px;
+    margin: 0 10%;
+    background-color: #fff; /* White background for content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for content */
+    border-radius: 10px; /* Rounded corners for the content box */
+}
+
+.content h2 {
+    color: #333; /* Dark text color for the heading */
+}
+
+/* Footer styling */
+#footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
